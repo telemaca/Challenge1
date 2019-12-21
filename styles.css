@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Raleway';
+    background-color: hsl(218, 28%, 13%)
+}
+
+header{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item{
+    padding: 0 30px;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+main{
+    position: relative;
+}
+
+.first-section{
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    /* background-image:  url(images/bg-curvy-desktop.svg); */
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 720px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.first-section-text{
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.get-started-btn{
+    background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+}
+
+.big-btn{
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.get-started-btn:hover{
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0;
+}
+
+.second-section{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.fylo-features{
+    width: 40%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fylo-feature-img{
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.fylo-feature-description{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+    max-width: 350px;
+}
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 80px;
+}
+
+.third-section-text{
+    margin: auto 50px;
+    vertical-align: middle;
+}
+
+.third-section-title{
+    font-size: 36px;
+    max-width: 400px;
+}
+
+.third-section-description{
+    font-family: 'Open Sans';
+    max-width: 550px;
+}
+
+.fylo-demonstration-link{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+    width: 166px;
+}
+
+.quotes-section{
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    justify-content: space-evenly;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.quotes-img{
+    position: absolute;
+    top: -35px;
+    left: 30px;
+    z-index: -20;
+}
+
+.quote{
+    background-color: hsl(219, 30%, 18%);
+    font-family: 'Open Sans';
+    width: 400px;
+    box-sizing: border-box;
+    padding: 50px 30px 30px 30px;
+    border-radius: 5px;
+}
+
+.quote-author{
+    margin-top: 30px;
+    display: flex;
+}
+
+.author-img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.quote-author-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.author-bf{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.early-access-form{
+    background-color: hsl(217, 28%, 15%);
+    width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: -200px;
+    left: 300px;
+}
+
+.early-access-title{
+    font-size: 32px;
+}
+
+.early-access-text{
+    text-align: center;
+    max-width: 700px;
+    font-family: 'Open Sans';
+}
+
+.early-access-input{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.mail-input{
+    height: 50px;
+    width: 450px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 30px;
+}
+
+.small-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
