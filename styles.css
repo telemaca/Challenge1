@@ -232,7 +232,77 @@ h3 {
 
 footer{
     background-color: hsl(216, 53%, 9%);
-    height: 500px;
+    height: 250px;
+    padding-top: 150px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+
+.main-footer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.footer-main-column{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fylo-info-footer{
+    display: flex;
+    width: 350px;
+}
+
+.location-icon{
+    padding-top: 5px;
+}
+
+.fylo-description-footer{
+    margin: 0 0 0 20px;
+}
+
+.footer-contact-info{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 40px 140px;
+}
+
+.nav-footer{
+    list-style: none;
+    margin: 0;
+}
+
+.socialnetworks-footer{
+    display: flex;
+}
+
+.social-network{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright{
+    background-color: hsl(217, 28%, 15%);
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: thistle;
 }

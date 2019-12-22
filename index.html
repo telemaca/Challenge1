@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
@@ -152,29 +153,45 @@
   </main>
 
   <footer>
-    <div class="fylo-info-footer">
-    <img src="images/logo.svg" />
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua
-  </div>
-
-    +1-543-123-4567
-    example@fylo.com
-
-    About Us
-    Jobs
-    Press
-    Blog
-
-    Contact Us
-    Terms
-    Privacy
-
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <div class="main-footer">
+      <img src="images/logo.svg" />
+      <div class="footer-main-column">
+        <div class="fylo-info-footer footer-column">
+          <div class="location-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <p class="fylo-description-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="footer-contact-info footer-column">
+          <i class="fas fa-phone-volume"></i><span>+1-543-123-4567</span>
+          <i class="far fa-envelope"></i><span>example@fylo.com</span>
+        </div>
+        <ul class="nav-footer footer-column">
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+    
+        <ul class="nav-footer footer-column">
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+        <div class="socialnetworks-footer footer-column">
+          <div class="social-network"><i class="fab fa-facebook-f"></i></div>
+          <div class="social-network"><i class="fab fa-twitter"></i></div>
+          <div class="social-network"><i class="fab fa-instagram"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p class="attribution">
+        Challenge by <a class="footer-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a class="footer-link" href="#">Florencia Holzmann</a>.
+      </p>
+    </div>
+    </footer>
 </body>
 
 </html>
