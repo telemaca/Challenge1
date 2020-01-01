@@ -9,6 +9,7 @@ header{
     padding: 60px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: hsl(217, 28%, 15%);
 }
 
@@ -305,4 +306,207 @@ footer{
 .footer-link{
     text-decoration: none;
     color: thistle;
+}
+
+@media(max-width:375px){
+    header{
+        padding: 30px 0;
+        justify-content: space-evenly;
+    }
+
+    .header-logo{
+        width: 100px;
+    }
+
+    .nav-items{
+        padding: 0;
+        margin: 0 0 8px 0;
+        font-size: 14px;
+    }
+
+    .nav-item{
+        padding: 0 5px;
+    }
+
+    .first-section-img{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    h1{
+        width: 90%;
+        max-width: 300px;
+        font-size: 24px;
+    }
+
+    .first-section-text{
+        width: 90%;
+        max-width: 300px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .get-started-btn.big-btn{
+        max-width: 250px;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .second-section{
+        padding: 50px 0;
+    }
+
+    .fylo-features{
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .fylo-feature-img{
+        height: 60px;
+    }
+
+    .fylo-feature-title{
+        font-size: 16px;
+    }
+
+    .fylo-feature-description{
+        width: 300px;
+        font-size: 13px;
+    }
+
+    .third-section{
+        flex-direction: column;
+    }
+
+    .third-section-img{
+        max-width: 300px;
+    }
+
+    .third-section-text{
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .third-section-title{
+        font-size: 18px;
+    }
+
+    .third-section-description{
+        font-size: 14px;
+    }
+
+    .fylo-demonstration-link{
+        width: 150px;
+    }
+
+    .quotes-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+
+    .quotes-img{
+        width: 30px;
+        top: -20px;
+        left: 40px;
+    }
+
+    .quote{
+        width: 80%;
+        font-size: 10px;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+
+    .author-bf{
+        font-size: 12px;
+    }
+
+    .early-access-form{
+        width: 90%;
+        left: 20px;
+        bottom: -260px;
+        padding: 50px 20px 10px 20px;
+    }
+
+    .early-access-title{
+        font-size: 20px;
+    }
+
+    .early-access-text{
+        font-size: 14px;
+    }
+
+    .early-access-input{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .mail-input,
+    .get-started-btn.small-btn{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .mail-input{
+        box-sizing: border-box;
+    }
+
+    .small-btn{
+        font-size: 14px;
+    }
+
+    footer{
+        padding-top: 760px;
+    }
+
+    .main-footer > img{
+        padding-left: 10px;
+    }
+
+    .footer-main-column{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .footer-column:not(.socialnetworks-footer){
+        margin-bottom: 40px;
+    }
+
+    .fylo-info-footer{
+        max-width: 300px;
+        font-size: 15px;
+    }
+
+    .footer-contact-info{
+        grid-template-columns: 30px 140px;
+        grid-template-rows: 30px 40px;
+        align-items: self-end;
+        font-size: 14px;
+    }
+
+    .nav-footer{
+        padding-left: 0;
+    }
+
+    .nav-footer > li{
+        padding-bottom: 10px;
+    }
+
+    .socialnetworks-footer{
+        margin: auto;
+    }
+
+    .social-network{
+      margin-left: 10px;
+    }
+
+    .social-network:nth-child(1){
+        margin-left: 0;
+    }
+
+    .footer-copyright{
+        font-size: 12px;
+    }
 }
